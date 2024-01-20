@@ -1,7 +1,7 @@
 # Fuel API Data Pipeline
 This is a data pipeline project that collects data from [Fuel API](https://api.nsw.gov.au/Product/Index/22) and stores them in a PostgreSQL database. The data is then visualized using [Dash](https://plotly.com/dash/) and [Plotly](https://plotly.com/).
 ## Structure of the Data Pipeline
-![structure-of-the-data-pipeline](image.png)
+![structure-of-the-data-pipeline](images/image.png)
 ## How to Run
 0. Use following command in the terminal to clone the repository
     ```bash
