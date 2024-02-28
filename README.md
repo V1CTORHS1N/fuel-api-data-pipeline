@@ -9,7 +9,7 @@ This is a data pipeline project that collects data from [Fuel API](https://api.n
     ```
 1. Get your own API key from [Fuel API](https://api.nsw.gov.au/Product/Index/22).
 2. Fill `self.api_key` and `self.auth_header` with your API key and authorization header in the `Updater.py` file.
-3. Set up your own ProgreSQL database and fill in the database details in the `Database.py` file. Please ensure there is no schema called `fuel` in the database before the first run.
+3. Set up your own PostgreSQL database and fill in the database details in the `Database.py` file. Please ensure there is no schema called `fuel` in the database before the first run.
 4. [Optional] Use [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) to create and activate a virtual environment with following commands
     ```bash
     conda create --name fuel-api python=3.8
